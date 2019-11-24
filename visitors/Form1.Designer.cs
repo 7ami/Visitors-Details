@@ -410,6 +410,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Location = new System.Drawing.Point(400, 200);
             this.Name = "Visitors";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Visitors";
             this.Load += new System.EventHandler(this.Visitors_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
